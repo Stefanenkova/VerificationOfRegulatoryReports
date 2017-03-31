@@ -10,7 +10,7 @@
 		</languageInfo>
 	</languageSettings>
 	<columns>
-		<size>4</size>
+		<size>7</size>
 		<columnsItem>
 			<index>0</index>
 			<column>
@@ -20,58 +20,87 @@
 		<columnsItem>
 			<index>1</index>
 			<column>
-				<formatIndex>2</formatIndex>
+				<formatIndex>0</formatIndex>
 			</column>
 		</columnsItem>
 		<columnsItem>
 			<index>2</index>
 			<column>
-				<formatIndex>3</formatIndex>
+				<formatIndex>2</formatIndex>
 			</column>
 		</columnsItem>
 		<columnsItem>
 			<index>3</index>
 			<column>
+				<formatIndex>3</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>4</index>
+			<column>
 				<formatIndex>4</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>5</index>
+			<column>
+				<formatIndex>5</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>6</index>
+			<column>
+				<formatIndex>6</formatIndex>
 			</column>
 		</columnsItem>
 	</columns>
 	<rowsItem>
 		<index>1</index>
 		<row>
-			<formatIndex>5</formatIndex>
+			<formatIndex>7</formatIndex>
 			<c>
 				<i>1</i>
 				<c>
-					<f>6</f>
+					<f>8</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Выручка от реализации товаров и услуг
-(декларация по НДС, раздел 3, строка 010)</v8:content>
+							<v8:content>Квартал</v8:content>
 						</v8:item>
 					</tl>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>7</f>
+					<f>8</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Доходы от реализации
-(декларация по прибыли, лист 02, строка 010)</v8:content>
+							<v8:content>Декларация по НДС</v8:content>
 						</v8:item>
 					</tl>
 				</c>
 			</c>
 			<c>
+				<i>4</i>
 				<c>
-					<f>7</f>
+					<f>9</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Разница между показателями</v8:content>
+							<v8:content>Декларация по налогу на прибыль</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<i>6</i>
+				<c>
+					<f>9</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Разница</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -81,10 +110,54 @@
 	<rowsItem>
 		<index>2</index>
 		<row>
+			<formatIndex>10</formatIndex>
 			<c>
-				<i>1</i>
+				<i>2</i>
 				<c>
 					<f>8</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Выручка от реализации
+Раздел 3, Строка 010</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>9</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Номер 
+корректировки</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>9</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Доходы от реализации
+Лист 02, строка 010</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>9</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Номер 
+корректировки</v8:content>
+						</v8:item>
+					</tl>
 				</c>
 			</c>
 		</row>
@@ -95,34 +168,88 @@
 			<c>
 				<i>1</i>
 				<c>
-					<f>9</f>
+					<f>11</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>11</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>4</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>12</f>
+					<parameter>Квартал</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>13</f>
 					<parameter>Выручка</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>9</f>
+					<f>14</f>
+					<parameter>КорректировкаНДС</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>13</f>
 					<parameter>Доходы</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>9</f>
+					<f>14</f>
+					<parameter>КорректировкаПрибыль</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>13</f>
 					<parameter>Разница</parameter>
 				</c>
 			</c>
 		</row>
 	</rowsItem>
 	<templateMode>true</templateMode>
-	<defaultFormatIndex>8</defaultFormatIndex>
-	<height>4</height>
-	<vgRows>4</vgRows>
+	<defaultFormatIndex>11</defaultFormatIndex>
+	<height>5</height>
+	<vgRows>5</vgRows>
+	<merge>
+		<r>1</r>
+		<c>1</c>
+		<h>1</h>
+	</merge>
+	<merge>
+		<r>1</r>
+		<c>2</c>
+		<w>1</w>
+	</merge>
+	<merge>
+		<r>1</r>
+		<c>4</c>
+		<w>1</w>
+	</merge>
+	<merge>
+		<r>1</r>
+		<c>6</c>
+		<h>1</h>
+	</merge>
 	<namedItem xsi:type="NamedItemCells">
 		<name>Строка</name>
 		<area>
 			<type>Rows</type>
-			<beginRow>3</beginRow>
-			<endRow>3</endRow>
+			<beginRow>4</beginRow>
+			<endRow>4</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
@@ -132,7 +259,7 @@
 		<area>
 			<type>Rows</type>
 			<beginRow>0</beginRow>
-			<endRow>1</endRow>
+			<endRow>2</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
@@ -144,28 +271,50 @@
 		<width>16</width>
 	</format>
 	<format>
-		<width>261</width>
+		<width>163</width>
+	</format>
+	<format>
+		<width>97</width>
 	</format>
 	<format>
 		<width>162</width>
 	</format>
 	<format>
+		<width>95</width>
+	</format>
+	<format>
 		<width>98</width>
 	</format>
 	<format>
-		<height>150</height>
+		<height>81</height>
 	</format>
 	<format>
 		<border>0</border>
 		<width>72</width>
-		<horizontalAlignment>Justify</horizontalAlignment>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
 	</format>
 	<format>
 		<border>0</border>
-		<horizontalAlignment>Justify</horizontalAlignment>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
+	</format>
+	<format>
+		<height>96</height>
 	</format>
 	<format>
 		<width>72</width>
+	</format>
+	<format>
+		<border>0</border>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<fillType>Parameter</fillType>
+		<format>
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>ДФ='к "квартал"'</v8:content>
+			</v8:item>
+		</format>
 	</format>
 	<format>
 		<border>0</border>
@@ -174,6 +323,17 @@
 			<v8:item>
 				<v8:lang>ru</v8:lang>
 				<v8:content>ЧЦ=15; ЧДЦ=2</v8:content>
+			</v8:item>
+		</format>
+	</format>
+	<format>
+		<border>0</border>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<fillType>Parameter</fillType>
+		<format>
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>ЧН=Первичный</v8:content>
 			</v8:item>
 		</format>
 	</format>
