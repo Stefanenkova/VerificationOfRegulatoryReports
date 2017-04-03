@@ -543,7 +543,7 @@
 		<indent>4</indent>
 	</format>
 	<format>
-		<font>1</font>
+		<font>2</font>
 		<border>0</border>
 		<horizontalAlignment>Right</horizontalAlignment>
 		<fillType>Parameter</fillType>
