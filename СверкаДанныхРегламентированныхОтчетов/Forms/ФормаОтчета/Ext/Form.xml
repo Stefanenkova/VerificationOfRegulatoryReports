@@ -10,6 +10,9 @@
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<Autofill>false</Autofill>
 	</AutoCommandBar>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
 	<ChildItems>
 		<UsualGroup name="ГруппаБыстрыеОтборы" id="5">
 			<Title>
@@ -335,9 +338,6 @@
 				<v8:Type>cfg:CatalogRef.Организации</v8:Type>
 			</Type>
 			<FillCheck>ShowError</FillCheck>
-			<Save>
-				<Field>Организация</Field>
-			</Save>
 		</Attribute>
 	</Attributes>
 	<Commands>
