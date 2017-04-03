@@ -32,7 +32,7 @@
 		<ChildObjects>
 			<Form>ФормаОтчета</Form>
 			<Template>Макет</Template>
-			<Template>ДругойВариант</Template>
+			<Template>МакетОтчета</Template>
 		</ChildObjects>
 	</ExternalReport>
 </MetaDataObject>
