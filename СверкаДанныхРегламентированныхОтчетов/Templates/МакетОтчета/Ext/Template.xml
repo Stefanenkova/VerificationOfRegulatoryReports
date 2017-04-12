@@ -245,12 +245,24 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
+		<index>14</index>
+		<row>
+			<c>
+				<i>3</i>
+				<c>
+					<f>20</f>
+					<parameter>ЗначениеПоказателя</parameter>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
 		<index>16</index>
 		<row>
 			<c>
 				<i>1</i>
 				<c>
-					<f>20</f>
+					<f>21</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -276,7 +288,7 @@
 	<drawing>
 		<drawingType>Picture</drawingType>
 		<id>2</id>
-		<formatIndex>21</formatIndex>
+		<formatIndex>22</formatIndex>
 		<beginRow>1</beginRow>
 		<beginRowOffset>18</beginRowOffset>
 		<endRow>4</endRow>
@@ -290,8 +302,25 @@
 		<zOrder>0</zOrder>
 		<pictureIndex>1</pictureIndex>
 	</drawing>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>5</id>
+		<formatIndex>22</formatIndex>
+		<beginRow>14</beginRow>
+		<beginRowOffset>11</beginRowOffset>
+		<endRow>14</endRow>
+		<endRowOffset>47</endRowOffset>
+		<beginColumn>3</beginColumn>
+		<beginColumnOffset>6</beginColumnOffset>
+		<endColumn>3</endColumn>
+		<endColumnOffset>44</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>Proportionally</pictureSize>
+		<zOrder>0</zOrder>
+		<pictureIndex>2</pictureIndex>
+	</drawing>
 	<templateMode>true</templateMode>
-	<defaultFormatIndex>22</defaultFormatIndex>
+	<defaultFormatIndex>23</defaultFormatIndex>
 	<height>19</height>
 	<vgRows>19</vgRows>
 	<merge>
@@ -357,6 +386,14 @@
 		<c>1</c>
 		<w>1</w>
 	</verticalUnmerge>
+	<namedItem xsi:type="NamedItemDrawing">
+		<name>Внимание1</name>
+		<drawingID>4</drawingID>
+	</namedItem>
+	<namedItem xsi:type="NamedItemDrawing">
+		<name>Внимание2</name>
+		<drawingID>5</drawingID>
+	</namedItem>
 	<namedItem xsi:type="NamedItemCells">
 		<name>Заголовок</name>
 		<area>
@@ -408,6 +445,16 @@
 		</area>
 	</namedItem>
 	<namedItem xsi:type="NamedItemCells">
+		<name>СтрокаВерхнийУровеньСРисунком</name>
+		<area>
+			<type>Rows</type>
+			<beginRow>14</beginRow>
+			<endRow>14</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
 		<name>СтрокаНижнийУровень</name>
 		<area>
 			<type>Rows</type>
@@ -438,6 +485,9 @@
 		</area>
 	</namedItem>
 	<line width="1" gap="false">
+		<v8ui:style xsi:type="v8ui:SpreadsheetDocumentCellLineType">Solid</v8ui:style>
+	</line>
+	<line width="2" gap="false">
 		<v8ui:style xsi:type="v8ui:SpreadsheetDocumentCellLineType">Solid</v8ui:style>
 	</line>
 	<line width="1" gap="false">
@@ -512,7 +562,12 @@
 		<width>171</width>
 		<horizontalAlignment>Right</horizontalAlignment>
 		<fillType>Parameter</fillType>
-		<format/>
+		<format>
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>ЧЦ=15; ЧДЦ=; ЧН=-</v8:content>
+			</v8:item>
+		</format>
 	</format>
 	<format>
 		<font>1</font>
@@ -555,12 +610,26 @@
 		</format>
 	</format>
 	<format>
+		<font>1</font>
+		<border>1</border>
+		<borderColor>style:SpecialTextColor</borderColor>
+		<width>171</width>
+		<horizontalAlignment>Right</horizontalAlignment>
+		<fillType>Parameter</fillType>
+		<format>
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>ЧЦ=15; ЧДЦ=; ЧН=-</v8:content>
+			</v8:item>
+		</format>
+	</format>
+	<format>
 		<font>3</font>
 		<horizontalAlignment>Center</horizontalAlignment>
 		<verticalAlignment>Center</verticalAlignment>
 	</format>
 	<format>
-		<drawingBorder>1</drawingBorder>
+		<drawingBorder>2</drawingBorder>
 	</format>
 	<format>
 		<width>72</width>
@@ -713,5 +782,9 @@ zvPy8P//////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////
 /////////////w==</picture>
+	</picture>
+	<picture>
+		<index>1</index>
+		<picture ref="v8ui:Внимание16"/>
 	</picture>
 </document>
