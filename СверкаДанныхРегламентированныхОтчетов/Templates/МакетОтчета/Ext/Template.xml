@@ -10,7 +10,7 @@
 		</languageInfo>
 	</languageSettings>
 	<columns>
-		<size>9</size>
+		<size>10</size>
 		<columnsItem>
 			<index>0</index>
 			<column>
@@ -36,7 +36,7 @@
 			</column>
 		</columnsItem>
 		<columnsItem>
-			<index>6</index>
+			<index>4</index>
 			<column>
 				<formatIndex>5</formatIndex>
 			</column>
@@ -53,6 +53,12 @@
 				<formatIndex>7</formatIndex>
 			</column>
 		</columnsItem>
+		<columnsItem>
+			<index>9</index>
+			<column>
+				<formatIndex>8</formatIndex>
+			</column>
+		</columnsItem>
 	</columns>
 	<rowsItem>
 		<index>1</index>
@@ -65,7 +71,7 @@
 			</c>
 			<c>
 				<c>
-					<f>8</f>
+					<f>9</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -88,7 +94,7 @@
 			<c>
 				<i>2</i>
 				<c>
-					<f>9</f>
+					<f>10</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -111,17 +117,17 @@
 			<c>
 				<i>1</i>
 				<c>
-					<f>10</f>
-				</c>
-			</c>
-			<c>
-				<c>
 					<f>11</f>
 				</c>
 			</c>
 			<c>
 				<c>
 					<f>12</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>13</f>
 					<parameter>ИмяПериода</parameter>
 				</c>
 			</c>
@@ -133,13 +139,13 @@
 			<c>
 				<i>1</i>
 				<c>
-					<f>13</f>
+					<f>14</f>
 				</c>
 			</c>
 			<c>
 				<i>3</i>
 				<c>
-					<f>13</f>
+					<f>14</f>
 				</c>
 			</c>
 		</row>
@@ -150,7 +156,7 @@
 			<c>
 				<i>1</i>
 				<c>
-					<f>14</f>
+					<f>15</f>
 					<parameter>Показатель</parameter>
 				</c>
 			</c>
@@ -161,7 +167,7 @@
 			</c>
 			<c>
 				<c>
-					<f>15</f>
+					<f>16</f>
 					<parameter>ЗначениеПоказателя</parameter>
 				</c>
 			</c>
@@ -173,13 +179,13 @@
 			<c>
 				<i>1</i>
 				<c>
-					<f>13</f>
+					<f>14</f>
 				</c>
 			</c>
 			<c>
 				<i>3</i>
 				<c>
-					<f>13</f>
+					<f>14</f>
 				</c>
 			</c>
 		</row>
@@ -190,7 +196,7 @@
 			<c>
 				<i>1</i>
 				<c>
-					<f>16</f>
+					<f>17</f>
 					<parameter>Показатель</parameter>
 				</c>
 			</c>
@@ -201,7 +207,7 @@
 			</c>
 			<c>
 				<c>
-					<f>17</f>
+					<f>18</f>
 					<parameter>ЗначениеПоказателя</parameter>
 				</c>
 			</c>
@@ -213,13 +219,13 @@
 			<c>
 				<i>1</i>
 				<c>
-					<f>13</f>
+					<f>14</f>
 				</c>
 			</c>
 			<c>
 				<i>3</i>
 				<c>
-					<f>13</f>
+					<f>14</f>
 					<tl/>
 				</c>
 			</c>
@@ -231,14 +237,14 @@
 			<c>
 				<i>1</i>
 				<c>
-					<f>18</f>
+					<f>19</f>
 					<parameter>Показатель</parameter>
 				</c>
 			</c>
 			<c>
 				<i>3</i>
 				<c>
-					<f>19</f>
+					<f>20</f>
 					<parameter>ЗначениеПоказателя</parameter>
 				</c>
 			</c>
@@ -250,8 +256,13 @@
 			<c>
 				<i>3</i>
 				<c>
-					<f>20</f>
+					<f>21</f>
 					<parameter>ЗначениеПоказателя</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>22</f>
 				</c>
 			</c>
 		</row>
@@ -262,7 +273,7 @@
 			<c>
 				<i>1</i>
 				<c>
-					<f>21</f>
+					<f>23</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -288,7 +299,7 @@
 	<drawing>
 		<drawingType>Picture</drawingType>
 		<id>2</id>
-		<formatIndex>22</formatIndex>
+		<formatIndex>24</formatIndex>
 		<beginRow>1</beginRow>
 		<beginRowOffset>18</beginRowOffset>
 		<endRow>4</endRow>
@@ -305,22 +316,22 @@
 	<drawing>
 		<drawingType>Picture</drawingType>
 		<id>5</id>
-		<formatIndex>22</formatIndex>
+		<formatIndex>24</formatIndex>
 		<beginRow>14</beginRow>
-		<beginRowOffset>11</beginRowOffset>
+		<beginRowOffset>9</beginRowOffset>
 		<endRow>14</endRow>
-		<endRowOffset>47</endRowOffset>
-		<beginColumn>3</beginColumn>
-		<beginColumnOffset>6</beginColumnOffset>
-		<endColumn>3</endColumn>
-		<endColumnOffset>44</endColumnOffset>
+		<endRowOffset>45</endRowOffset>
+		<beginColumn>4</beginColumn>
+		<beginColumnOffset>12</beginColumnOffset>
+		<endColumn>4</endColumn>
+		<endColumnOffset>53</endColumnOffset>
 		<autoSize>false</autoSize>
 		<pictureSize>Proportionally</pictureSize>
 		<zOrder>0</zOrder>
 		<pictureIndex>2</pictureIndex>
 	</drawing>
 	<templateMode>true</templateMode>
-	<defaultFormatIndex>23</defaultFormatIndex>
+	<defaultFormatIndex>25</defaultFormatIndex>
 	<height>19</height>
 	<vgRows>19</vgRows>
 	<merge>
@@ -332,13 +343,13 @@
 		<r>1</r>
 		<c>2</c>
 		<h>1</h>
-		<w>6</w>
+		<w>7</w>
 	</merge>
 	<merge>
 		<r>3</r>
 		<c>2</c>
 		<h>1</h>
-		<w>6</w>
+		<w>7</w>
 	</merge>
 	<merge>
 		<r>9</r>
@@ -354,11 +365,16 @@
 		<r>16</r>
 		<c>1</c>
 		<h>2</h>
-		<w>7</w>
+		<w>8</w>
 	</merge>
 	<merge>
 		<r>-1</r>
 		<c>1</c>
+		<w>1</w>
+	</merge>
+	<merge>
+		<r>-1</r>
+		<c>3</c>
 		<w>1</w>
 	</merge>
 	<verticalUnmerge>
@@ -384,6 +400,11 @@
 	<verticalUnmerge>
 		<r>11</r>
 		<c>1</c>
+		<w>1</w>
+	</verticalUnmerge>
+	<verticalUnmerge>
+		<r>14</r>
+		<c>3</c>
 		<w>1</w>
 	</verticalUnmerge>
 	<namedItem xsi:type="NamedItemDrawing">
@@ -421,7 +442,7 @@
 			<beginRow>-1</beginRow>
 			<endRow>-1</endRow>
 			<beginColumn>3</beginColumn>
-			<endColumn>3</endColumn>
+			<endColumn>4</endColumn>
 		</area>
 	</namedItem>
 	<namedItem xsi:type="NamedItemCells">
@@ -507,7 +528,10 @@
 		<width>205</width>
 	</format>
 	<format>
-		<width>171</width>
+		<width>166</width>
+	</format>
+	<format>
+		<width>25</width>
 	</format>
 	<format>
 		<width>31</width>
@@ -611,11 +635,27 @@
 	</format>
 	<format>
 		<font>1</font>
-		<border>1</border>
+		<leftBorder>1</leftBorder>
+		<topBorder>1</topBorder>
+		<bottomBorder>1</bottomBorder>
 		<borderColor>style:SpecialTextColor</borderColor>
 		<width>171</width>
 		<horizontalAlignment>Right</horizontalAlignment>
 		<fillType>Parameter</fillType>
+		<format>
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>ЧЦ=15; ЧДЦ=; ЧН=-</v8:content>
+			</v8:item>
+		</format>
+	</format>
+	<format>
+		<font>1</font>
+		<topBorder>1</topBorder>
+		<rightBorder>1</rightBorder>
+		<bottomBorder>1</bottomBorder>
+		<borderColor>style:SpecialTextColor</borderColor>
+		<horizontalAlignment>Right</horizontalAlignment>
 		<format>
 			<v8:item>
 				<v8:lang>ru</v8:lang>
