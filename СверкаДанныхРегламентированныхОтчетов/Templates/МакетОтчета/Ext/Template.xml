@@ -268,7 +268,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>16</index>
+		<index>18</index>
 		<row>
 			<c>
 				<i>1</i>
@@ -285,13 +285,13 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>17</index>
+		<index>19</index>
 		<row>
 			<empty>true</empty>
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>18</index>
+		<index>20</index>
 		<row>
 			<empty>true</empty>
 		</row>
@@ -332,8 +332,8 @@
 	</drawing>
 	<templateMode>true</templateMode>
 	<defaultFormatIndex>25</defaultFormatIndex>
-	<height>19</height>
-	<vgRows>19</vgRows>
+	<height>21</height>
+	<vgRows>21</vgRows>
 	<merge>
 		<r>1</r>
 		<c>1</c>
@@ -362,7 +362,7 @@
 		<w>1</w>
 	</merge>
 	<merge>
-		<r>16</r>
+		<r>18</r>
 		<c>1</c>
 		<h>2</h>
 		<w>8</w>
@@ -429,8 +429,8 @@
 		<name>НетДанных</name>
 		<area>
 			<type>Rows</type>
-			<beginRow>16</beginRow>
-			<endRow>18</endRow>
+			<beginRow>18</beginRow>
+			<endRow>20</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
