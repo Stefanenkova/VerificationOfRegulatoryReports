@@ -23,7 +23,7 @@
 			<DefaultForm>ExternalReport.СверкаДанныхРегламентированныхОтчетов.Form.ФормаОтчета</DefaultForm>
 			<AuxiliaryForm/>
 			<MainDataCompositionSchema/>
-			<DefaultSettingsForm/>
+			<DefaultSettingsForm>ExternalReport.СверкаДанныхРегламентированныхОтчетов.Form.ФормаНастроек</DefaultSettingsForm>
 			<AuxiliarySettingsForm/>
 			<DefaultVariantForm/>
 			<VariantsStorage/>
@@ -31,6 +31,7 @@
 		</Properties>
 		<ChildObjects>
 			<Form>ФормаОтчета</Form>
+			<Form>ФормаНастроек</Form>
 			<Template>МакетОтчета</Template>
 		</ChildObjects>
 	</ExternalReport>

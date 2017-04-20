@@ -132,6 +132,11 @@
 									</Title>
 									<ExtendedTooltip name="ПечатьСразуExtendedTooltip" id="122"/>
 								</Button>
+								<Button name="Настройка" id="165">
+									<Type>CommandBarButton</Type>
+									<CommandName>Form.Command.Настройка</CommandName>
+									<ExtendedTooltip name="НастройкаРасширеннаяПодсказка" id="166"/>
+								</Button>
 							</ChildItems>
 						</CommandBar>
 						<PictureDecoration name="ДекорацияАвтоСумма" id="102">
@@ -339,6 +344,23 @@
 			</Type>
 			<FillCheck>ShowError</FillCheck>
 		</Attribute>
+		<Attribute name="МассивСубконтоПДР" id="14">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Массив субконто ПДР</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueListType</v8:Type>
+			</Type>
+			<Save>
+				<Field>МассивСубконтоПДР</Field>
+			</Save>
+			<Settings xsi:type="v8:TypeDescription">
+				<v8:Type>cfg:CatalogRef.ПрочиеДоходыИРасходы</v8:Type>
+			</Settings>
+		</Attribute>
 	</Attributes>
 	<Commands>
 		<Command name="Сформировать" id="2">
@@ -359,6 +381,21 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Action>Сформировать</Action>
+		</Command>
+		<Command name="Настройка" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Настройка</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Настройка</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Настройка</Action>
 		</Command>
 	</Commands>
 </Form>
