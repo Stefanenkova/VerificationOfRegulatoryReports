@@ -40,8 +40,15 @@
 					<ExtendedTooltip name="ПериодРасширеннаяПодсказка" id="164"/>
 					<Events>
 						<Event name="OnChange">ПериодПриИзменении</Event>
+						<Event name="StartChoice">ПериодНачалоВыбора</Event>
 					</Events>
 				</InputField>
+				<Button name="ВыбратьПериод" id="167">
+					<Type>UsualButton</Type>
+					<Representation>Picture</Representation>
+					<CommandName>Form.Command.ВыбратьПериод</CommandName>
+					<ExtendedTooltip name="ВыбратьПериодРасширеннаяПодсказка" id="168"/>
+				</Button>
 				<InputField name="Организация" id="23">
 					<DataPath>Организация</DataPath>
 					<TitleLocation>None</TitleLocation>
@@ -180,37 +187,6 @@
 									<CommandName>Form.Command.Сформировать</CommandName>
 									<ExtendedTooltip name="СформироватьВсеДействияРасширеннаяПодсказка" id="157"/>
 								</Button>
-								<ButtonGroup name="ГруппаСохранитьЗагрузить" id="35">
-									<Title>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Сохранить/загрузить</v8:content>
-										</v8:item>
-									</Title>
-									<ToolTip>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Кнопки Сохранить \ Загрузить</v8:content>
-										</v8:item>
-									</ToolTip>
-									<ExtendedTooltip name="ГруппаСохранитьЗагрузитьExtendedTooltip" id="127"/>
-									<ChildItems>
-										<Button name="ЗагрузитьНастройкиОтчета" id="36">
-											<Type>CommandBarButton</Type>
-											<SkipOnInput>false</SkipOnInput>
-											<OnlyInAllActions>false</OnlyInAllActions>
-											<CommandName>Form.StandardCommand.LoadReportSettings</CommandName>
-											<ExtendedTooltip name="ЗагрузитьНастройкиОтчетаExtendedTooltip" id="128"/>
-										</Button>
-										<Button name="СохранитьНастройкиОтчета" id="37">
-											<Type>CommandBarButton</Type>
-											<SkipOnInput>false</SkipOnInput>
-											<OnlyInAllActions>false</OnlyInAllActions>
-											<CommandName>Form.StandardCommand.SaveReportSettings</CommandName>
-											<ExtendedTooltip name="СохранитьНастройкиОтчетаExtendedTooltip" id="129"/>
-										</Button>
-									</ChildItems>
-								</ButtonGroup>
 								<Button name="ПечатьСразуВсеДействия" id="160">
 									<Type>CommandBarButton</Type>
 									<CommandName>Form.Item.Результат.StandardCommand.PrintImmediately</CommandName>
@@ -221,6 +197,12 @@
 										</v8:item>
 									</Title>
 									<ExtendedTooltip name="ПечатьСразуВсеДействияРасширеннаяПодсказка" id="161"/>
+								</Button>
+								<Button name="НастройкаВсеДействия" id="169">
+									<Type>CommandBarButton</Type>
+									<OnlyInAllActions>false</OnlyInAllActions>
+									<CommandName>Form.Command.Настройка</CommandName>
+									<ExtendedTooltip name="НастройкаВсеДействияРасширеннаяПодсказка" id="170"/>
 								</Button>
 								<ButtonGroup name="ГруппаИзменитьФормуСправка" id="38">
 									<Title>
@@ -237,13 +219,6 @@
 									</ToolTip>
 									<ExtendedTooltip name="ГруппаИзменитьФормуСправкаExtendedTooltip" id="130"/>
 									<ChildItems>
-										<Button name="ИзменитьФорму" id="39">
-											<Type>CommandBarButton</Type>
-											<SkipOnInput>false</SkipOnInput>
-											<OnlyInAllActions>false</OnlyInAllActions>
-											<CommandName>Form.StandardCommand.CustomizeForm</CommandName>
-											<ExtendedTooltip name="ИзменитьФормуExtendedTooltip" id="131"/>
-										</Button>
 										<Button name="Справка" id="40">
 											<Type>CommandBarButton</Type>
 											<SkipOnInput>false</SkipOnInput>
@@ -398,6 +373,25 @@
 				</v8:item>
 			</ToolTip>
 			<Action>Настройка</Action>
+		</Command>
+		<Command name="ВыбратьПериод" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выбрать период</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выбрать период</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.Select</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ВыбратьПериод</Action>
 		</Command>
 	</Commands>
 </Form>
