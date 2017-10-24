@@ -100,7 +100,7 @@
 				</v8:item>
 			</Title>
 			<Type>
-				<v8:Type>cfg:ExternalReportObject.СверкаДанныхРегламентированныхОтчетов</v8:Type>
+				<v8:Type>cfg:ExternalReportObject.АнализРасхожденийВыручкиНДСИНалогаНаПрибыльВДекларациях</v8:Type>
 			</Type>
 		</Attribute>
 	</Attributes>

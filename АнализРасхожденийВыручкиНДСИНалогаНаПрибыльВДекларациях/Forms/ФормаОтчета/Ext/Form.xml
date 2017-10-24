@@ -251,7 +251,7 @@
 	<Attributes>
 		<Attribute name="Отчет" id="1">
 			<Type>
-				<v8:Type>cfg:ExternalReportObject.СверкаДанныхРегламентированныхОтчетов</v8:Type>
+				<v8:Type>cfg:ExternalReportObject.АнализРасхожденийВыручкиНДСИНалогаНаПрибыльВДекларациях</v8:Type>
 			</Type>
 			<MainAttribute>true</MainAttribute>
 		</Attribute>
