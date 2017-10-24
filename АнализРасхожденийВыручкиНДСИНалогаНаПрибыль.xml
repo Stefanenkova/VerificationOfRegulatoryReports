@@ -6,24 +6,24 @@
 				<xr:ClassId>e41aff26-25cf-4bb6-b6c1-3f478a75f374</xr:ClassId>
 				<xr:ObjectId>65c94bd5-8a94-46e1-a252-61ca18a3f422</xr:ObjectId>
 			</xr:ContainedObject>
-			<xr:GeneratedType name="ExternalReportObject.АнализРасхожденийВыручкиНДСИНалогаНаПрибыльВДекларациях" category="Object">
+			<xr:GeneratedType name="ExternalReportObject.АнализРасхожденийВыручкиНДСИНалогаНаПрибыль" category="Object">
 				<xr:TypeId>bf163318-0723-44d4-ab36-56ec1bd5bc6d</xr:TypeId>
 				<xr:ValueId>67eecc99-64fe-4893-8917-e399a70b14f0</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>АнализРасхожденийВыручкиНДСИНалогаНаПрибыльВДекларациях</Name>
+			<Name>АнализРасхожденийВыручкиНДСИНалогаНаПрибыль</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Анализ расхождений выручки НДС и Налога на прибыль в декларациях</v8:content>
+					<v8:content>Анализ расхождений выручки НДС и Налога на прибыль</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
-			<DefaultForm>ExternalReport.АнализРасхожденийВыручкиНДСИНалогаНаПрибыльВДекларациях.Form.ФормаОтчета</DefaultForm>
+			<DefaultForm>ExternalReport.АнализРасхожденийВыручкиНДСИНалогаНаПрибыль.Form.ФормаОтчета</DefaultForm>
 			<AuxiliaryForm/>
 			<MainDataCompositionSchema/>
-			<DefaultSettingsForm>ExternalReport.АнализРасхожденийВыручкиНДСИНалогаНаПрибыльВДекларациях.Form.ФормаНастроек</DefaultSettingsForm>
+			<DefaultSettingsForm>ExternalReport.АнализРасхожденийВыручкиНДСИНалогаНаПрибыль.Form.ФормаНастроек</DefaultSettingsForm>
 			<AuxiliarySettingsForm/>
 			<DefaultVariantForm/>
 			<VariantsStorage/>
