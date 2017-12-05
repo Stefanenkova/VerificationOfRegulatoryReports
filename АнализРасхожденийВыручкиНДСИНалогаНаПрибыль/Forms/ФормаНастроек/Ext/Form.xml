@@ -112,7 +112,7 @@
 				</v8:item>
 			</Title>
 			<Type>
-				<v8:Type>cfg:ExternalReportObject.АнализРасхожденийВыручкиНДСИНалогаНаПрибыль</v8:Type>
+				<v8:Type>cfg:ExternalReportObject.АнализРасхожденийВыручкиНДСИНалогаНаПрибыльДемоВерсия</v8:Type>
 			</Type>
 		</Attribute>
 	</Attributes>
