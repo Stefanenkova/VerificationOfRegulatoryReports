@@ -107,6 +107,7 @@
 	</rowsItem>
 	<rowsItem>
 		<index>4</index>
+		<indexTo>6</indexTo>
 		<row>
 			<empty>true</empty>
 		</row>
@@ -268,12 +269,37 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
+		<index>16</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>19</f>
+					<parameter>Показатель</parameter>
+				</c>
+			</c>
+			<c>
+				<i>3</i>
+				<c>
+					<f>23</f>
+					<parameter>ЗначениеПоказателя</parameter>
+					<detailParameter>Расшифровка</detailParameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>24</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
 		<index>18</index>
 		<row>
 			<c>
 				<i>1</i>
 				<c>
-					<f>23</f>
+					<f>25</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -286,12 +312,7 @@
 	</rowsItem>
 	<rowsItem>
 		<index>19</index>
-		<row>
-			<empty>true</empty>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>20</index>
+		<indexTo>20</indexTo>
 		<row>
 			<empty>true</empty>
 		</row>
@@ -299,7 +320,7 @@
 	<drawing>
 		<drawingType>Picture</drawingType>
 		<id>2</id>
-		<formatIndex>24</formatIndex>
+		<formatIndex>26</formatIndex>
 		<beginRow>1</beginRow>
 		<beginRowOffset>18</beginRowOffset>
 		<endRow>4</endRow>
@@ -316,7 +337,7 @@
 	<drawing>
 		<drawingType>Picture</drawingType>
 		<id>5</id>
-		<formatIndex>24</formatIndex>
+		<formatIndex>26</formatIndex>
 		<beginRow>14</beginRow>
 		<beginRowOffset>9</beginRowOffset>
 		<endRow>14</endRow>
@@ -330,8 +351,25 @@
 		<zOrder>0</zOrder>
 		<pictureIndex>2</pictureIndex>
 	</drawing>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>7</id>
+		<formatIndex>26</formatIndex>
+		<beginRow>16</beginRow>
+		<beginRowOffset>5</beginRowOffset>
+		<endRow>16</endRow>
+		<endRowOffset>36</endRowOffset>
+		<beginColumn>4</beginColumn>
+		<beginColumnOffset>21</beginColumnOffset>
+		<endColumn>4</endColumn>
+		<endColumnOffset>56</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>Proportionally</pictureSize>
+		<zOrder>0</zOrder>
+		<pictureIndex>2</pictureIndex>
+	</drawing>
 	<templateMode>true</templateMode>
-	<defaultFormatIndex>25</defaultFormatIndex>
+	<defaultFormatIndex>27</defaultFormatIndex>
 	<height>21</height>
 	<vgRows>21</vgRows>
 	<merge>
@@ -358,6 +396,11 @@
 	</merge>
 	<merge>
 		<r>11</r>
+		<c>1</c>
+		<w>1</w>
+	</merge>
+	<merge>
+		<r>16</r>
 		<c>1</c>
 		<w>1</w>
 	</merge>
@@ -404,6 +447,11 @@
 	</verticalUnmerge>
 	<verticalUnmerge>
 		<r>14</r>
+		<c>3</c>
+		<w>1</w>
+	</verticalUnmerge>
+	<verticalUnmerge>
+		<r>16</r>
 		<c>3</c>
 		<w>1</w>
 	</verticalUnmerge>
@@ -481,6 +529,16 @@
 			<type>Rows</type>
 			<beginRow>13</beginRow>
 			<endRow>13</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>СтрокаНижнийУровеньСРисунком</name>
+		<area>
+			<type>Rows</type>
+			<beginRow>16</beginRow>
+			<endRow>16</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
@@ -660,6 +718,33 @@
 			<v8:item>
 				<v8:lang>ru</v8:lang>
 				<v8:content>ЧЦ=15; ЧДЦ=; ЧН=-</v8:content>
+			</v8:item>
+		</format>
+	</format>
+	<format>
+		<font>2</font>
+		<leftBorder>0</leftBorder>
+		<topBorder>0</topBorder>
+		<bottomBorder>0</bottomBorder>
+		<horizontalAlignment>Right</horizontalAlignment>
+		<fillType>Parameter</fillType>
+		<format>
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>ЧЦ=15; ЧН=-</v8:content>
+			</v8:item>
+		</format>
+	</format>
+	<format>
+		<font>2</font>
+		<topBorder>0</topBorder>
+		<rightBorder>0</rightBorder>
+		<bottomBorder>0</bottomBorder>
+		<horizontalAlignment>Right</horizontalAlignment>
+		<format>
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>ЧЦ=15; ЧН=-</v8:content>
 			</v8:item>
 		</format>
 	</format>
