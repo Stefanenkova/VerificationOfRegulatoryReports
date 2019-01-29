@@ -351,23 +351,6 @@
 		<zOrder>0</zOrder>
 		<pictureIndex>2</pictureIndex>
 	</drawing>
-	<drawing>
-		<drawingType>Picture</drawingType>
-		<id>7</id>
-		<formatIndex>26</formatIndex>
-		<beginRow>16</beginRow>
-		<beginRowOffset>5</beginRowOffset>
-		<endRow>16</endRow>
-		<endRowOffset>36</endRowOffset>
-		<beginColumn>4</beginColumn>
-		<beginColumnOffset>21</beginColumnOffset>
-		<endColumn>4</endColumn>
-		<endColumnOffset>56</endColumnOffset>
-		<autoSize>false</autoSize>
-		<pictureSize>Proportionally</pictureSize>
-		<zOrder>0</zOrder>
-		<pictureIndex>2</pictureIndex>
-	</drawing>
 	<templateMode>true</templateMode>
 	<defaultFormatIndex>27</defaultFormatIndex>
 	<height>21</height>
@@ -741,12 +724,15 @@
 		<rightBorder>0</rightBorder>
 		<bottomBorder>0</bottomBorder>
 		<horizontalAlignment>Right</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
 		<format>
 			<v8:item>
 				<v8:lang>ru</v8:lang>
 				<v8:content>ЧЦ=15; ЧН=-</v8:content>
 			</v8:item>
 		</format>
+		<picIndex>2</picIndex>
+		<pictureSizeMode>RealSize</pictureSizeMode>
 	</format>
 	<format>
 		<font>3</font>

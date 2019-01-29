@@ -33,6 +33,7 @@
 			<Form>ФормаОтчета</Form>
 			<Form>ФормаНастроек</Form>
 			<Form>ВыборПериодаНарастающимИтогом</Form>
+			<Form>ФормаАктуальныеДанные</Form>
 			<Template>МакетОтчета</Template>
 		</ChildObjects>
 	</ExternalReport>

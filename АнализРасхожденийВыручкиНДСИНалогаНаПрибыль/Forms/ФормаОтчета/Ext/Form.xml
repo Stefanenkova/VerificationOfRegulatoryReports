@@ -240,6 +240,7 @@
 					<ExtendedTooltip name="РезультатExtendedTooltip" id="134"/>
 					<Events>
 						<Event name="OnActivateArea">РезультатПриАктивизацииОбласти</Event>
+						<Event name="DetailProcessing">РезультатОбработкаРасшифровки</Event>
 					</Events>
 				</SpreadSheetDocumentField>
 			</ChildItems>
