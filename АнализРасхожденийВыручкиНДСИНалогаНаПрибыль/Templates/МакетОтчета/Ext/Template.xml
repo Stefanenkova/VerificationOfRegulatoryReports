@@ -705,10 +705,10 @@
 		</format>
 	</format>
 	<format>
-		<font>2</font>
-		<leftBorder>0</leftBorder>
-		<topBorder>0</topBorder>
-		<bottomBorder>0</bottomBorder>
+		<leftBorder>1</leftBorder>
+		<topBorder>1</topBorder>
+		<bottomBorder>1</bottomBorder>
+		<borderColor>style:SpecialTextColor</borderColor>
 		<horizontalAlignment>Right</horizontalAlignment>
 		<fillType>Parameter</fillType>
 		<format>
@@ -717,12 +717,14 @@
 				<v8:content>ЧЦ=15; ЧН=-</v8:content>
 			</v8:item>
 		</format>
+		<hyperLink>true</hyperLink>
 	</format>
 	<format>
 		<font>2</font>
-		<topBorder>0</topBorder>
-		<rightBorder>0</rightBorder>
-		<bottomBorder>0</bottomBorder>
+		<topBorder>1</topBorder>
+		<rightBorder>1</rightBorder>
+		<bottomBorder>1</bottomBorder>
+		<borderColor>style:SpecialTextColor</borderColor>
 		<horizontalAlignment>Right</horizontalAlignment>
 		<verticalAlignment>Center</verticalAlignment>
 		<format>
