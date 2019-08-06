@@ -107,6 +107,7 @@
 	</rowsItem>
 	<rowsItem>
 		<index>4</index>
+		<indexTo>6</indexTo>
 		<row>
 			<empty>true</empty>
 		</row>
@@ -268,12 +269,37 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
+		<index>16</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>19</f>
+					<parameter>Показатель</parameter>
+				</c>
+			</c>
+			<c>
+				<i>3</i>
+				<c>
+					<f>23</f>
+					<parameter>ЗначениеПоказателя</parameter>
+					<detailParameter>Расшифровка</detailParameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>24</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
 		<index>18</index>
 		<row>
 			<c>
 				<i>1</i>
 				<c>
-					<f>23</f>
+					<f>25</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -286,12 +312,7 @@
 	</rowsItem>
 	<rowsItem>
 		<index>19</index>
-		<row>
-			<empty>true</empty>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>20</index>
+		<indexTo>22</indexTo>
 		<row>
 			<empty>true</empty>
 		</row>
@@ -307,7 +328,7 @@
 			</c>
 			<c>
 				<c>
-					<f>24</f>
+					<f>26</f>
 				</c>
 			</c>
 		</row>
@@ -323,7 +344,7 @@
 			</c>
 			<c>
 				<c>
-					<f>24</f>
+					<f>26</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -346,7 +367,7 @@
 			<c>
 				<i>2</i>
 				<c>
-					<f>25</f>
+					<f>27</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -367,7 +388,7 @@
 	<drawing>
 		<drawingType>Picture</drawingType>
 		<id>2</id>
-		<formatIndex>26</formatIndex>
+		<formatIndex>28</formatIndex>
 		<beginRow>1</beginRow>
 		<beginRowOffset>18</beginRowOffset>
 		<endRow>4</endRow>
@@ -384,7 +405,7 @@
 	<drawing>
 		<drawingType>Picture</drawingType>
 		<id>5</id>
-		<formatIndex>26</formatIndex>
+		<formatIndex>28</formatIndex>
 		<beginRow>14</beginRow>
 		<beginRowOffset>9</beginRowOffset>
 		<endRow>14</endRow>
@@ -401,7 +422,7 @@
 	<drawing>
 		<drawingType>Picture</drawingType>
 		<id>6</id>
-		<formatIndex>26</formatIndex>
+		<formatIndex>28</formatIndex>
 		<beginRow>24</beginRow>
 		<beginRowOffset>18</beginRowOffset>
 		<endRow>27</endRow>
@@ -416,7 +437,7 @@
 		<pictureIndex>3</pictureIndex>
 	</drawing>
 	<templateMode>true</templateMode>
-	<defaultFormatIndex>27</defaultFormatIndex>
+	<defaultFormatIndex>29</defaultFormatIndex>
 	<height>28</height>
 	<vgRows>28</vgRows>
 	<merge>
@@ -443,6 +464,11 @@
 	</merge>
 	<merge>
 		<r>11</r>
+		<c>1</c>
+		<w>1</w>
+	</merge>
+	<merge>
+		<r>16</r>
 		<c>1</c>
 		<w>1</w>
 	</merge>
@@ -506,6 +532,11 @@
 	</verticalUnmerge>
 	<verticalUnmerge>
 		<r>14</r>
+		<c>3</c>
+		<w>1</w>
+	</verticalUnmerge>
+	<verticalUnmerge>
+		<r>16</r>
 		<c>3</c>
 		<w>1</w>
 	</verticalUnmerge>
@@ -613,6 +644,16 @@
 			<type>Rows</type>
 			<beginRow>13</beginRow>
 			<endRow>13</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>СтрокаНижнийУровеньСРисунком</name>
+		<area>
+			<type>Rows</type>
+			<beginRow>16</beginRow>
+			<endRow>16</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
@@ -794,6 +835,38 @@
 				<v8:content>ЧЦ=15; ЧДЦ=; ЧН=-</v8:content>
 			</v8:item>
 		</format>
+	</format>
+	<format>
+		<leftBorder>1</leftBorder>
+		<topBorder>1</topBorder>
+		<bottomBorder>1</bottomBorder>
+		<borderColor>style:SpecialTextColor</borderColor>
+		<horizontalAlignment>Right</horizontalAlignment>
+		<fillType>Parameter</fillType>
+		<format>
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>ЧЦ=15; ЧН=-</v8:content>
+			</v8:item>
+		</format>
+		<hyperLink>true</hyperLink>
+	</format>
+	<format>
+		<font>2</font>
+		<topBorder>1</topBorder>
+		<rightBorder>1</rightBorder>
+		<bottomBorder>1</bottomBorder>
+		<borderColor>style:SpecialTextColor</borderColor>
+		<horizontalAlignment>Right</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
+		<format>
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>ЧЦ=15; ЧН=-</v8:content>
+			</v8:item>
+		</format>
+		<picIndex>2</picIndex>
+		<pictureSizeMode>RealSize</pictureSizeMode>
 	</format>
 	<format>
 		<font>3</font>
