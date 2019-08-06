@@ -558,7 +558,6 @@
 	<font ref="style:LargeTextFont" height="14" bold="false" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
 	<font faceName="Arial" height="10" bold="false" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
 	<font faceName="Arial" height="8" bold="false" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
-	<font faceName="Arial" height="8" bold="false" italic="false" underline="true" strikeout="false" kind="Absolute" scale="100"/>
 	<font ref="style:NormalTextFont" height="12" kind="StyleItem"/>
 	<format>
 		<width>15</width>
@@ -706,13 +705,11 @@
 		</format>
 	</format>
 	<format>
-		<font>3</font>
 		<leftBorder>1</leftBorder>
 		<topBorder>1</topBorder>
 		<bottomBorder>1</bottomBorder>
 		<borderColor>style:SpecialTextColor</borderColor>
 		<horizontalAlignment>Right</horizontalAlignment>
-		<textColor>style:ГиперссылкаЦвет</textColor>
 		<fillType>Parameter</fillType>
 		<format>
 			<v8:item>
@@ -740,7 +737,7 @@
 		<pictureSizeMode>RealSize</pictureSizeMode>
 	</format>
 	<format>
-		<font>4</font>
+		<font>3</font>
 		<horizontalAlignment>Center</horizontalAlignment>
 		<verticalAlignment>Center</verticalAlignment>
 	</format>
